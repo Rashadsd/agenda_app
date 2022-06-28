@@ -6,6 +6,7 @@ const AgendaItem = (item) => {
     const { id, title, description, status, time } = item 
     const { handleDelete, handleEdit, handleOpenModal } = useContext(DataContext)
 
+    
 
     return (
         <div className="item border shadow">
