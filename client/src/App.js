@@ -11,7 +11,7 @@ function App() {
     <DataContext.Provider value={{ ...data }}>
         <div className="container">
             <h2 className="title text-center">Agenda List</h2>
-            <AgendaList />
+            <AgendaList/>
         </div>
     </DataContext.Provider>
   );
